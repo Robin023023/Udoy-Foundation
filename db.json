@@ -1,0 +1,20 @@
+{
+  "SuperStar": [
+    {
+      "id": 1,
+      "name": "Polash",
+      "blood": "O+",
+      "thana": "Hazigonj",
+      "districk": "Chandpur",
+      "phon": "01688337305"
+    },
+    {
+      "id": 2,
+      "name": "Rahat",
+      "blood": "A+",
+      "thana": "Hazigonj",
+      "districk": "Chandpur",
+      "phon": "01631797942"
+    }
+  ]
+}

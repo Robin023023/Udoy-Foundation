@@ -1,38 +1,119 @@
-.App {
+body {
+  margin: 0;
+  font-family: sans-serif;
   text-align: center;
+  font-style: italic;
+}
+.App{
+  width: 960px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+   /* Planet style.css */
+
+h4{
+  padding-left:30px;
+  font-weight: bolder;
+  color:rgb(1, 1, 1);
+  text-shadow: 4px 5px 9px rgb(241, 7, 7);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4:hover{
+  text-shadow: 4px 5px 9px rgb(242, 236, 236);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ button{
+  margin: 0 10px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #141412;
+  color:white;
+}
+
+.card{
+  padding: 8px 10px;
+  background: #f3caca;
+  margin: 16px 0;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.card:hover{
+  box-shadow: 5px 4px 7px 5px rgb(6, 4, 13);
+}
+
+.form-control{
+  box-shadow: 3px 2px 5px 3px rgb(6, 4, 13);
+  font-weight: bold;
+}
+
+ .video{
+  width:760;
+  height:515;
+  margin:auto;
+ }
+
+
+/* Heading style css */
+
+.Heading{
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color:white;
+  text-shadow: 7px 8px 5px rgb(12, 1, 1);
+  line-height: 65px;
+}
+
+.texts{
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color:rgb(170, 164, 164,0.7);
+  font-style: normal;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 4em;
+  text-shadow: 7px 8px 5px rgb(12, 1, 1);
+  color:red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text2{
+  font-size: 4em;
+  color:rgb(251, 243, 243);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ .text2,h1{
+  font-size:2em;
+ }
+ .Heading,.texts{
+  height: 100%;
+ }
+ .button-group{
+  position: relative;
+  top:-10px;
+ }
+}
+
+/* Topper style css */
+
+.Topper2{
+    position:sticky;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0.9;
 }

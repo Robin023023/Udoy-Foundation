@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{ Suspense } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import './App.css'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import {RotateLoader} from 'react-spinners'
+const All = React.lazy(() => import('./components/All'));
 
-function App() {
+
+
+const Client=new QueryClient()
+
+export default function App() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <QueryClientProvider client={Client}>
+    <Suspense fallback={<div className='pt-5'><RotateLoader color="#36d7b7" /></div>}>
+      <All/>
+    </Suspense> 
+    </QueryClientProvider>
+  )
 }
-
-export default App;
