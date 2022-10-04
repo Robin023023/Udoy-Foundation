@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Udoy-Foundation/static/css/main.9f70a155.css",
+    "main.js": "/Udoy-Foundation/static/js/main.4c52ee42.js",
+    "static/js/907.3f221ac5.chunk.js": "/Udoy-Foundation/static/js/907.3f221ac5.chunk.js",
+    "static/js/717.b9492b7d.chunk.js": "/Udoy-Foundation/static/js/717.b9492b7d.chunk.js",
+    "index.html": "/Udoy-Foundation/index.html",
+    "main.9f70a155.css.map": "/Udoy-Foundation/static/css/main.9f70a155.css.map",
+    "main.4c52ee42.js.map": "/Udoy-Foundation/static/js/main.4c52ee42.js.map",
+    "907.3f221ac5.chunk.js.map": "/Udoy-Foundation/static/js/907.3f221ac5.chunk.js.map",
+    "717.b9492b7d.chunk.js.map": "/Udoy-Foundation/static/js/717.b9492b7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f70a155.css",
+    "static/js/main.4c52ee42.js"
+  ]
+}
